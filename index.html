@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laporan Penelitian SEP &amp; BSC — Studi Kasus Satuan Pendidikan Dasar Menengah</title>
+<meta name="description" content="Laporan penelitian Strategic Educational Planning and Balanced Scorecard Implementation pada satuan pendidikan dasar menengah: naskah, strategy map, kalkulator AHP dan Delphi, scorecard, cek BOSP.">
+<meta name="theme-color" content="#1B2A6B">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+  <a class="brand" href="#beranda"><span class="logo"><i></i><i></i><i></i><i></i></span><span><b>SEP &amp; BSC Dikdasmen</b><small>Laporan Penelitian · Studio Interaktif</small></span></a>
+  <div class="top-actions">
+    <button id="undoBtn" class="btn ghost" title="Batalkan perubahan terakhir (Ctrl+Z)" disabled>↶ Batalkan</button>
+    <button id="redoBtn" class="btn ghost" title="Ulangi perubahan" disabled>↷</button>
+    <button id="resetBtn" class="btn ghost" title="Reset halaman atau hapus semua pekerjaan">⟲ Reset</button>
+    <button id="installBtn" class="btn ghost hidden">⬇ Install App</button>
+    <button id="exportBtn" class="btn ghost" title="Simpan semua pekerjaan Anda sebagai JSON">Ekspor</button>
+    <label class="btn ghost" title="Muat pekerjaan dari JSON">Impor<input type="file" id="importFile" accept=".json" hidden></label>
+  </div>
+</header>
+<nav class="side" id="side" aria-label="Navigasi utama">
+  <a href="#beranda" data-i="🏠">Beranda & Abstrak</a>
+  <a href="#materi" data-i="📘">Laporan Lengkap</a>
+  <a href="#galeri" data-i="🖼">Galeri Visual</a>
+  <div class="nav-sep">Panduan Terstruktur</div>
+  <a href="#planner" data-i="🧩">Research Planner 16 Langkah</a>
+  <div class="nav-sep">Studio Interaktif</div>
+  <a href="#map" data-i="🗺">Strategy Map Sekolah</a>
+  <a href="#ahp" data-i="⚖">Kalkulator AHP</a>
+  <a href="#delphi" data-i="🧪">Kalkulator Delphi–CVR</a>
+  <a href="#scorecard" data-i="📊">Scorecard & Dasbor</a>
+  <a href="#cascade" data-i="🪜">Matriks Cascading</a>
+  <a href="#bosp" data-i="💰">Cek RKAS / BOSP</a>
+  <a href="#swot" data-i="🧭">SWOT → TOWS</a>
+  <a href="#sus" data-i="✅">Kalkulator SUS</a>
+  <div class="nav-sep">Referensi</div>
+  <a href="#template" data-i="📋">Template Siap Salin</a>
+  <a href="#glosarium" data-i="🔤">Daftar Istilah</a>
+  <a href="#pustaka" data-i="📚">Daftar Pustaka</a>
+</nav>
+<main id="app" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="abbr.js"></script>
+<script src="rplanner.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
